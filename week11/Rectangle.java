@@ -1,0 +1,38 @@
+package week11;
+
+
+/**
+ * Write a description of class Q1 here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Rectangle extends Shape implements Drawable
+{
+    double length;
+    double breadth;
+    
+    public Rectangle(double length, double breadth)
+    {
+        this.length = length;
+        this.breadth = breadth;
+    }
+    
+    @Override
+    public double calculateArea()
+    {
+        return length * breadth;
+    }
+    
+    @Override
+    public double calculatePerimeter()
+    {
+        return 2*(length + breadth);
+    }
+    
+    @Override
+    public void draw()
+    {
+        System.out.println("Drawing a Rectangle");
+    }
+}

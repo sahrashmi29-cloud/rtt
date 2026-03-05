@@ -10,9 +10,9 @@ package week6;
 public class Q1
 { public static void main(String[] args)
   {
-      int age[]; //declaration
-      age = new int[5]; //construction
+      int age[]; 
+      age = new int[5]; 
       
-      int [] agr = new int[5]; // declaration and construction
+      int [] agr = new int[5]; 
   }
 }

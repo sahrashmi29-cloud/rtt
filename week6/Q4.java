@@ -38,22 +38,6 @@ public class Q4
     System.out.println("Sum: " + sum);
     System.out.println("Average: " + avg);
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter length: ");
     int len= sc.nextInt();

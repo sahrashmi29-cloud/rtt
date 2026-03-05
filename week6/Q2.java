@@ -10,10 +10,10 @@ package week6;
 public class Q2
 {public static void main(String[] args)
   {
-    int mat [][]; //Declaration
-    mat = new int [3][3]; //Construction
+    int mat [][]; 
+    mat = new int [3][3]; 
     
-    int matr[][] = new int[3][3]; // Declaration and Construction in same line
+    int matr[][] = new int[3][3]; 
     
     
   }

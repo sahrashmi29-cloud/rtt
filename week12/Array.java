@@ -21,7 +21,7 @@ public class Array
         
         System.out.println(arrlist.size());
         
-        //remove,access and update
+        
         arrlist.remove(0);
         
         System.out.println(arrlist);
@@ -32,17 +32,17 @@ public class Array
         
         System.out.println(arrlist);
         
-        //contains, indexOf
         
-        System.out.println(arrlist.contains(87)); // true or false
         
-        System.out.println(arrlist.indexOf(20)); // -1
+        System.out.println(arrlist.contains(87)); 
+        
+        System.out.println(arrlist.indexOf(20)); 
         
         arrlist.clear();
         
         System.out.println(arrlist);
         
-        //traversing an arraylist elements
+        
         
         for(int arr: arrlist)
         {
